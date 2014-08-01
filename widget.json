@@ -1,0 +1,13 @@
+{
+	"id": "com.baboonmedia.remoteimage",
+	"name": "com.baboonmedia.remoteimage",
+	"description" : "Provides a view that supports remote image loading with full image caching.",
+	"author": "Uriel Lizama",
+	"version": "1.0",
+	"copyright":"Copyright (c) 2014",
+	"license":"MIT",
+	"min-alloy-version": "1.0",
+	"min-titanium-version":"3.0",
+	"tags":"image,remote,load",
+	"platforms":"ios,android"
+}

@@ -1,0 +1,5 @@
+<Alloy>
+	<View id="RemoteImage">
+		<ImageView id="ImageContainer" />
+	</View>
+</Alloy>
