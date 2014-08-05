@@ -47,7 +47,7 @@ You can use `$.myId.applyProperties()` to apply any new properties to the widget
 ```javascript
 $.myId.applyProperties({
 	autoload: true,
-    url: 'http://mysite.com/otherimage.jpg',
+    image: 'http://mysite.com/otherimage.jpg',
     backgroundColor: 'black'
 });
 ```
@@ -81,6 +81,7 @@ You can adjust the following variables:
 
 ## Changelog
 
+- 1.1 Fixed a bug on the debug display
 - 1.0 Initial version
 
 ## Licenses
