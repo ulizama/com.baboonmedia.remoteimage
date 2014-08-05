@@ -43,7 +43,7 @@ if( args.autoload ){
 
 if( _.has(args,'activityindicator') && args.activityindicator ){
   activity = args.activityindicator;
-  $.RemoteImage.add( args.activity );
+  $.RemoteImage.add( activity );
 }
 
 //Launch garbage collection

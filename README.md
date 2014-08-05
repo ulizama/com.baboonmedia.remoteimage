@@ -14,8 +14,8 @@ Just require the widget on a view:
 
 ```xml
 <Widget src="com.baboonmedia.remoteimage" id="RemoteImage">
+	<ActivityIndicator id="activityIndicator" role="activityindicator" />
     <View role="loadingerror">
-       <ActivityIndicator id="activityIndicator" role="activityindicator" />
        <Label>Unable to load image. Tap to retry</Label>
     </View>
 </Widget>
