@@ -93,7 +93,7 @@ function _error( error ){
     activity.hide();
   }
 
-  Ti.API.error(error);
+  Ti.API.error('Image Load Error: ' + error);
 
   if( _.has(args,'loadingerror') ){
     args.loadingerror.addEventListener('singletap',_retry);
@@ -160,7 +160,13 @@ function applyProperties(properties) {
   _applyOuterProperties(args);
 
   if( newImage && args.autoload ){
+    isLoaded = false;
     load();
+  }
+  else if( !newImage && args.autoload ){
+    if( onDone ){
+      _.delay(onDone, 1000);
+    }
   }
 
 }
