@@ -3,7 +3,7 @@
 	"name": "com.baboonmedia.remoteimage",
 	"description" : "Provides a view that supports remote image loading with full image caching.",
 	"author": "Uriel Lizama",
-	"version": "1.3",
+	"version": "1.4",
 	"copyright":"Copyright (c) 2014",
 	"license":"MIT",
 	"min-alloy-version": "1.0",

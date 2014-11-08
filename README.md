@@ -60,6 +60,7 @@ $.myId.applyProperties({
 | load() | If the image hasn't been loaded start loading the image. This method has to be called manually if `autoload` is set to `false` |
 | setImage() | Sets a new image and loads it if `autoload` is set to `true` |
 | getImage() | Returns the url of the current image |
+| getImageCachePath() | Returns the local path of the cached image |
 | clean() | It's highly recommended that you call this method before disposing from the object to prevent memory leaks. |
 | gc() | Calls the garbage collector to clean any expired images. Upon initialization the garbage collector is called. |
 | wipeCache() | Clear everything on the cache, regardless if it has expired or not. |

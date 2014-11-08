@@ -206,6 +206,13 @@ function setImage( image ) {
 }
 
 
+function getImageCachePath(){
+
+  return $.ImageContainer.image;
+
+}
+
+
 function getImageURL( url ){
 
   if( !args.gethires ){
@@ -257,6 +264,7 @@ Object.defineProperty($, "image", {
 
 exports.setImage = setImage;
 exports.getImage = getImage;
+exports.getImageCachePath = getImageCachePath;
 exports.applyProperties = applyProperties;
 exports.load = load;
 exports.gc = gc;
